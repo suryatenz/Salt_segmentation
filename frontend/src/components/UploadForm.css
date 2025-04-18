@@ -1,0 +1,98 @@
+/* Remove any default margin/padding on the page */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the upload form and results */
+  .upload-container {
+    padding: 2rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form container styling */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Upload form styling */
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* File input styling */
+  .upload-form input[type="file"] {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .upload-form button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Container for the result images */
+  .result-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual result box styling */
+  .result-box {
+    text-align: center;
+  }
+  
+  /* Headings for each image */
+  .result-box h4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Image styling: each with its own border */
+  .result-box img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 4px;
+  }
+  
+  /* Note text styling */
+  .note {
+    text-align: center;
+    margin-top: 2rem;
+    font-style: italic;
+  }
+  
