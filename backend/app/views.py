@@ -34,7 +34,7 @@ def combined_loss(y_true, y_pred):
 
 MODEL_PATH = os.path.join(
     os.path.dirname(settings.BASE_DIR),
-    'model',
+    'models',
     'unet_salt_segmentation.keras'
 )
 model = load_model(MODEL_PATH, custom_objects={'combined_loss': combined_loss})
